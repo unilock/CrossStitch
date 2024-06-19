@@ -9,16 +9,17 @@
     "Velocity Contributors"
   ],
   "contact": {
-    "website": "https://velocitypowered.com"
+    "homepage": "https://papermc.io",
+    "sources": "https://github.com/VelocityPowered/CrossStitch",
+    "issues": "https://github.com/VelocityPowered/CrossStitch/issues"
   },
   "license": "MIT",
-  "icon": "assets/crossstitch/icon.png",
   "environment": "server",
   "mixins": [
     "crossstitch.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.11",
+    "fabricloader": "*",
     "minecraft": ">=1.19.3"
   }
 }
